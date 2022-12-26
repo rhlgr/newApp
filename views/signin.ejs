@@ -1,0 +1,12 @@
+<%-include("header") %>
+<%-include("nav") %>
+<form action="/signin" class="form-control text-center container w-25 my-5 " method="post">
+    <h1>User <span class="text-warning ">Login...</span></h1>
+    <input type="text" class="form-control my-4 "  placeholder="Username" name="username">
+    <input type="password" class="form-control  my-4 "  placeholder="Password" name="password">
+    <button class="btn btn-success form-control">signin</button>
+    <a href="/forget">Forgot password ??</a>
+    <a href="/reset">Reset password</a>
+
+  </form>
+  <%-include("footer") %>

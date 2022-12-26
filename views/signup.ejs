@@ -1,0 +1,16 @@
+<%-include("header") %>
+<%-include("nav") %>
+
+<form action="/signup" class="form-control text-center container w-25 my-5 "  method="post">
+    <h1>Create <span class="text-warning ">Profile...</span></h1>
+    <input type="text" class="form-control my-4 "   placeholder="Name" name="name">
+    <input type="text" class="form-control my-4 "   placeholder="Username" name="username">
+    <input type="email" class="form-control my-4 "   placeholder="Email" name="email">
+    <input type="password" class="form-control my-4 "   placeholder="Password" name="password">
+    <input type="number" class="form-control my-4 "   placeholder="Phone" name="phone">
+    <button class="btn btn-success form-control my-3">Signup</button>
+    <br>
+    <button class="btn btn-warning form-control">Signin</button>
+  </form>
+
+  <%-include("footer") %>
